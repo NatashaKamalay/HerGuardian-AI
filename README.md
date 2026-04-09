@@ -238,5 +238,3 @@ Login → Start Travel → Sync Location → Emergency → End Trip
 
 ## Admin Side
 Dashboard → Incident Log → Alert Center → AI Monitoring
-
-
