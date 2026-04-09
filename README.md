@@ -169,28 +169,28 @@ Alert- active
 
 ## Project Structure
 HerGuardian-AI
-
-── backend
-   ── auth.py
-   ── models.py
-   ── services.py
-   ── routes.py
-   ── schemas.py
-   ── main.py
-
-── ai_engine
-   ── detector.py
-   ── gesture.py
-   ── risk.py
-   ── sender.py
-   ── main.py
-
-── herguardian-frontend
-   ── src
-      ── pages
-      ── components
-      ── utils
-   ── package.json
+│
+├── backend
+│   ├── auth.py
+│   ├── models.py
+│   ├── services.py
+│   ├── routes.py
+│   ├── schemas.py
+│   └── main.py
+│
+├── ai_engine
+│   ├── detector.py
+│   ├── gesture.py
+│   ├── risk.py
+│   ├── sender.py
+│   └── main.py
+│
+├── herguardian-frontend
+│   ├── src
+│   │   ├── pages
+│   │   ├── components
+│   │   └── utils
+│   └── package.json
 
 ## Implementation Overview
 ## Authentication System
