@@ -132,15 +132,15 @@ The safe travel module includes-
 ## Deviation Engine
 Uses point-to-segment distance calculation to detect route deviation.
 If deviation > threshold-
-Auto Incident → severity- high
+Auto Incident → severity- high,
 Auto Alert → admin notification
 
 ## Emergency Engine
 User-triggered emergency generates
 
- Incident- travel_emergency
- Severity- critical
- Risk Score- 10
+ Incident- travel_emergency,
+ Severity- critical,
+ Risk Score- 10,
  Alert- active
 
 ## Technology Stack
