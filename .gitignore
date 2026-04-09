@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files
+.env
+**/.env
+
+# Databases
+*.db
+*.sqlite3
+
+# AI model weights
+*.pt
+*.pth
+*.onnx
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime / generated storage
+storage/
+uploads/
+snapshots/
+clips/
+output/
+temp/
+tmp/
+
+# Coverage / caches
+.coverage
+pytest_cache/
+.mypy_cache/
