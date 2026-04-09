@@ -5,7 +5,6 @@ HerGuardian AI is a full-stack intelligent women’s safety platform that combin
 The system simulates a real-world safety infrastructure where users can start protected journeys while administrators monitor risks, alerts, and incidents in real time.
 
 ## Key Highlights
-
 • Real-time Safe Travel tracking
 • Route deviation detection engine
 • Emergency escalation pipeline
@@ -100,9 +99,7 @@ AI Engine / Travel Engine → Incident Creation → Alert → Admin Dashboard Mo
 
 ## AI Monitoring Engine
 The AI engine simulates real-time safety analytics.
-
 Capabilities:
-
 • Gesture-based unsafe detection
 • Risk scoring logic
 • Incident creation
@@ -110,21 +107,21 @@ Capabilities:
 • Backend ingestion
 • Source tagging (ai_monitoring)
 
-Risk Score Range:
+Risk Score Range-
 0 — Safe
 3 — Low risk
 5 — Medium risk
 8 — High risk
 10 — Critical risk
 
-Severity Levels:
+Severity Levels-
 low
 medium
 high
 critical
 
 ## Safe Travel Intelligence Engine
-The safe travel module includes:
+The safe travel module includes-
 
 ## Travel Session
 - User trip initialization
@@ -134,66 +131,66 @@ The safe travel module includes:
 ## Deviation Engine
 Uses point-to-segment distance calculation to detect route deviation.
 
-If deviation > threshold:
-Auto Incident → severity: high
+If deviation > threshold-
+Auto Incident → severity- high
 Auto Alert → admin notification
 
 ## Emergency Engine
-User-triggered emergency generates:
-Incident: travel_emergency
-Severity: critical
-Risk Score: 10
-Alert: active
+User-triggered emergency generates-
+Incident- travel_emergency
+Severity- critical
+Risk Score- 10
+Alert- active
 
 ## Technology Stack
 ## Frontend
-React
-Vite
-Tailwind UI styling
-Leaflet Maps
-Lucide Icons
+• React
+• Vite
+• Tailwind UI styling
+• Leaflet Maps
+• Lucide Icons
 
 ## Backend
-FastAPI
-SQLAlchemy
-Pydantic
-SQLite Database
+• FastAPI
+• SQLAlchemy
+• Pydantic
+• SQLite Database
 
 ## AI Engine
-Python
-OpenCV
-YOLO-based detection
-Risk scoring engine
+• Python
+• OpenCV
+• YOLO-based detection
+• Risk scoring engine
 
 ## Communication
-REST APIs
-JSON payloads
-Role-based session handling
+• REST APIs
+• JSON payloads
+• Role-based session handling
 
 ## Project Structure
 HerGuardian-AI
-│
-├── backend
-│   ├── auth.py
-│   ├── models.py
-│   ├── services.py
-│   ├── routes.py
-│   ├── schemas.py
-│   └── main.py
-│
-├── ai_engine
-│   ├── detector.py
-│   ├── gesture.py
-│   ├── risk.py
-│   ├── sender.py
-│   └── main.py
-│
-├── herguardian-frontend
-│   ├── src
-│   │   ├── pages
-│   │   ├── components
-│   │   └── utils
-│   └── package.json
+
+── backend
+   ── auth.py
+   ── models.py
+   ── services.py
+   ── routes.py
+   ── schemas.py
+   ── main.py
+
+── ai_engine
+   ── detector.py
+   ── gesture.py
+   ── risk.py
+   ── sender.py
+   ── main.py
+
+── herguardian-frontend
+   ── src
+      ── pages
+      ── components
+      ── utils
+   ── package.json
 
 ## Implementation Overview
 ## Authentication System
