@@ -99,7 +99,7 @@ AI Engine / Travel Engine → Incident Creation → Alert → Admin Dashboard Mo
 
 ## AI Monitoring Engine
 The AI engine simulates real-time safety analytics.
-Capabilities:
+Capabilities-
 • Gesture-based unsafe detection
 • Risk scoring logic
 • Incident creation
@@ -108,6 +108,7 @@ Capabilities:
 • Source tagging (ai_monitoring)
 
 Risk Score Range-
+
 0 — Safe
 3 — Low risk
 5 — Medium risk
@@ -115,6 +116,7 @@ Risk Score Range-
 10 — Critical risk
 
 Severity Levels-
+
 low
 medium
 high
@@ -130,7 +132,6 @@ The safe travel module includes-
 
 ## Deviation Engine
 Uses point-to-segment distance calculation to detect route deviation.
-
 If deviation > threshold-
 Auto Incident → severity- high
 Auto Alert → admin notification
