@@ -171,26 +171,28 @@ Alert- active
 HerGuardian-AI
 │
 ├── backend
-│   ├── auth.py
-│   ├── models.py
-│   ├── services.py
-│   ├── routes.py
-│   ├── schemas.py
-│   └── main.py
+│ ├── auth.py
+│ ├── database.py
+│ ├── models.py
+│ ├── routes.py
+│ ├── schemas.py
+│ ├── services.py
+│ └── main.py
 │
 ├── ai_engine
-│   ├── detector.py
-│   ├── gesture.py
-│   ├── risk.py
-│   ├── sender.py
-│   └── main.py
+│ ├── detector.py
+│ ├── gesture.py
+│ ├── risk.py
+│ ├── sender.py
+│ └── main.py
 │
 ├── herguardian-frontend
-│   ├── src
-│   │   ├── pages
-│   │   ├── components
-│   │   └── utils
-│   └── package.json
+│ ├── src
+│ │ ├── pages
+│ │ ├── components
+│ │ └── utils
+│ ├── package.json
+│ └── vite.config.js
 
 ## Implementation Overview
 ## Authentication System
