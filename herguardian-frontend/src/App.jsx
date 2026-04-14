@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import DashboardPage from "./pages/DashboardPage";
 import SafeTravelPage from "./pages/SafeTravelPage";
+import AdminTravelMonitoringPage from "./pages/AdminTravelMonitoringPage";
 import IncidentsPage from "./pages/IncidentsPage";
 import AlertsPage from "./pages/AlertsPage";
 import AIMonitoringPage from "./pages/AIMonitoringPage";
@@ -21,7 +22,7 @@ function ProtectedLayout({ user, onLogout }) {
           {isAdmin ? (
             <>
               <Route path="/" element={<DashboardPage />} />
-              <Route path="/safe-travel" element={<SafeTravelPage />} />
+              <Route path="/travel-monitoring" element={<AdminTravelMonitoringPage />} />
               <Route path="/incidents" element={<IncidentsPage />} />
               <Route path="/alerts" element={<AlertsPage />} />
               <Route path="/ai-monitoring" element={<AIMonitoringPage />} />

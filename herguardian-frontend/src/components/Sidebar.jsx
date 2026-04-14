@@ -94,7 +94,7 @@ export default function Sidebar({ user, onLogout }) {
 
   const adminLinks = [
     { to: "/", label: "Dashboard", icon: <LayoutDashboard size={19} /> },
-    { to: "/safe-travel", label: "Safe Travel", icon: <Route size={19} /> },
+    { to: "/travel-monitoring", label: "Travel Monitoring", icon: <Route size={19} /> },
     { to: "/ai-monitoring", label: "AI Monitoring", icon: <Activity size={19} /> },
     { to: "/incidents", label: "Incident Log", icon: <ShieldAlert size={19} /> },
     { to: "/alerts", label: "Alert Center", icon: <BellRing size={19} /> },
